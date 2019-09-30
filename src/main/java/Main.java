@@ -7,7 +7,8 @@ import java.util.Arrays;
 
 
 
-    public static void main(String[] args) {
+ public static void main(String[] args) {
+     com.company.Less1.less3();
        /* String st = ("Variable string type");
         String lesson = ("Lesson 1");
         int taskNo = 1;
@@ -94,27 +95,35 @@ import java.util.Arrays;
             }
         }
         END TASK 7*/
-        ArrayList<Character> characters = transformIntToChar(72,69,76,76,79,87,32,87,79,76,68);
-        printList(characters);
+//        ArrayList<Character> characters = transformIntToChar(72,69,76,76,79,87,32,87,79,76,68);
+//        printList(characters);
 
        // int [] array1 = {72,69,76,76,79,87,32,87,79,76,68};
-    }
+    //}
             //int k = array1.length;
            // System.out.println(k);
 
 
-        private static ArrayList<Character> transformIntToChar(int...values) {
-            ArrayList<Character> buffer = new ArrayList<>();  //Array List класс коллекция, шаблон итератор, тип ArrayList<Character> (тип внутри типа). 'New' - оператор, которрый выделяет место в памяти под значения, которые будут содержаться внутри ArrayList(класс) и возвращает ссылку на экземпляр. (состояние конкретного экземпляра класса)
-            for (int i: values) {   // цикл перебирает каждое значение в массиве values
-                buffer.add(((char) i));
-            }
-            return buffer;
-        }
+//        private static ArrayList<Character> transformIntToChar(int...values) {
+//            ArrayList<Character> buffer = new ArrayList<>();  //Array List класс коллекция, шаблон итератор, тип ArrayList<Character> (тип внутри типа). 'New' - оператор, которрый выделяет место в памяти под значения, которые будут содержаться внутри ArrayList(класс) и возвращает ссылку на экземпляр. (состояние конкретного экземпляра класса)
+//            for (int i: values) {   // цикл перебирает каждое значение в массиве values
+//                buffer.add(((char) i));
+//            }
+//            return buffer;
+//        }
 
-        private static void printList(ArrayList<Character> characters) {
-            for (char c: characters) {
-                System.out.print(c);
-            }
-        }
+//        private static void printList(ArrayList<Character> characters) {
+//            for (char c: characters) {
+//                System.out.print(c);
+//            }
+//        }
 
+    //private static void main(String[] args) {
+//        int[] array = {51,136, 387};
+//
+//        for (int i = 0; i < array.length; i++) {
+//            System.out.println(array[i]);
+//        }
     }
+}
+
