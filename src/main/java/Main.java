@@ -9,6 +9,7 @@ import java.util.Arrays;
 
  public static void main(String[] args) {
      com.company.Less1.less3();
+
        /* String st = ("Variable string type");
         String lesson = ("Lesson 1");
         int taskNo = 1;
